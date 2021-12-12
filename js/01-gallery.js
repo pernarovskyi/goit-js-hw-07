@@ -6,7 +6,7 @@ const imagesMarkup = createGalleryMarkup(galleryItems);
 
 galleryContainer.insertAdjacentHTML('beforeend', imagesMarkup);
 
-// galleryContainer.addEventListener('click', onGalleryContainerClick);
+galleryContainer.addEventListener('click', onGalleryContainerClick);
 
 const instance = basicLightbox.create(`<img src="" />`);
 
